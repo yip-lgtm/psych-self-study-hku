@@ -1,0 +1,44 @@
+# Ignore data files, large binaries, and secrets
+
+# Capstone data
+capstone/data/raw/
+capstone/data/processed/
+capstone/report/*.pdf
+capstone/report/*.docx
+ethics/citi-certificate.pdf
+
+# Stats tool outputs (large)
+*.jasp
+*.RData
+*.rds
+*.Rhistory
+*.Rproj.user/
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Temporary / scratch
+*.tmp
+*.bak
+*.log
+
+# Anki deck builds
+anki/*.apkg
+anki/collection/
+
+# Survey platform exports
+capstone/instruments/exports/
+
+# Build artifacts
+*.html
+!**.md
